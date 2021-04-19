@@ -52,6 +52,7 @@ ul li a {
 
 header {
     background-color: var(--purplish) ;
+    /* position: fixed ; */
 }
 
 header h1 {
@@ -65,6 +66,7 @@ nav {
     margin: 0 auto ;
     display: flex ;
     justify-items: center ;
+    /* position: fixed ; */
 
 }
 
@@ -142,4 +144,10 @@ section article h2 {
     background-color: teal ;
     display: flex ;
     justify-content: center;
+}
+
+#py-projects {
+    background-color: teal ;
+    display: flex ;
+    justify-content: center ;
 }
