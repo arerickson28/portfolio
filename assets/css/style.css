@@ -1,35 +1,19 @@
 /* Variables */
 :root {
-    --purplish: rgb(75, 16, 131) ;
+    /* --purplish: rgb(75, 16, 131) ; */
+    --deep: rgb(13, 13, 68) ;
+    --silver: silver ;
 }
 
 /* element selectors */
 
-h1 {
-    color: white ;
-}
-
-footer img {
-    width: 50px ;
-}
 
 body {
-    background-color: orchid ;
+    background-color: grey ;
 }
 
-footer {
-    background-color: var(--purplish) ;
-}
-
-footer div {
-    display: flex ;
-    justify-content: center ;
-}
-
-section {
-    display: flex ;
-    justify-content: center ;
-    flex-wrap: wrap ;
+h1 {
+    color: white ;
 }
 
 ul {
@@ -37,21 +21,21 @@ ul {
     height: 75px ;
     display: flex ;
     align-items: center ;
+    /* position: fixed ; */
 }
 
 ul li {
     display: inline ;
     margin: 15px ;
-    color: white ;
     font-size: x-large ;
 }
 
 ul li a {
-    color: white ;
+    color: black ;
 }
 
 header {
-    background-color: var(--purplish) ;
+    background-color:  var(--silver);
     /* position: fixed ; */
 }
 
@@ -67,21 +51,25 @@ nav {
     display: flex ;
     justify-items: center ;
     /* position: fixed ; */
-
 }
 
 header div {
     position: absolute ;
     display: flex ;
     align-items: center ;
-    background-color: navy ;
+    background-color: var(--deep) ;
     width: 175px ;
     height: 75px ;
 }
 
+section {
+    display: flex ;
+    justify-content: center ;
+    flex-wrap: wrap ;
+}
 
 section article {
-    background-color: navy ;
+    background-color: var(--deep) ;
     display: flex ;
     flex-direction: column ;
     justify-content: space-between ;
@@ -93,17 +81,36 @@ section article {
     width: 700px ;
 }
 
-section article p {
+article p {
     background-color: white ;
     margin: 0 ;
     text-align: center ;
     font-size: large ;
 }
 
-section article h2 {
+article h2 {
     background-color: white ;
     margin: 0 ;
     text-align: center ;
+}
+
+article img {
+    padding: 3px ;
+    background-color: white ;
+    margin:40px
+}
+
+footer img {
+    width: 50px ;
+}
+
+footer {
+    background-color: var(--silver) ;
+}
+
+footer div {
+    display: flex ;
+    justify-content: center ;
 }
 
 /* class slectors */
@@ -150,4 +157,32 @@ section article h2 {
     background-color: teal ;
     display: flex ;
     justify-content: center ;
+}
+
+#a1 img {
+    width: 200px ;
+    margin: 12px ;
+    padding: 3px ;
+    background-color: white ;
+}
+
+/* #a2 img {
+ 
+} */
+
+#a3 img {
+    height: 325px ;
+}
+
+/* .code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px
+rgba(232, 102, 236, 1), 0 0 15px
+rgba(232, 102, 236, 1) ;
+} */
+
+article:hover {
+    box-shadow: inset 0px 0px 8px 
+    rgb(107, 213, 240), 0 0 15px 
+    rgb(107, 213, 240);
 }
