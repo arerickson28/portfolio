@@ -102,6 +102,9 @@ article img {
 
 footer img {
     width: 50px ;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    height: 50px ;
 }
 
 footer {
@@ -111,14 +114,24 @@ footer {
 footer div {
     display: flex ;
     justify-content: center ;
+    align-items: center ;
 }
 
 /* class slectors */
 .icon {
-    margin-top: 15px ;
+    /* margin-top: 15px ; */
+    margin-bottom: 15px ;
 }
 
 /* id slectors */
+
+#contact {
+    color: black ;
+    text-align: center ;
+    /* padding-top: 50px ; */
+    margin-bottom: 0px ;
+}
+
 #web-app {
     display: flex ;
     justify-content: center;
