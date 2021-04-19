@@ -53,11 +53,42 @@ nav {
     /* position: fixed ; */
 }
 
-header div {
+/* header div {
     position: absolute ;
     display: flex ;
     align-items: center ;
     background-color: var(--deep) ;
+    width: 175px ;
+    height: 75px ;
+} */
+
+#portfolio-div {
+    position: absolute ;
+    display: flex ;
+    align-items: center ;
+    background-color: var(--deep) ;
+    width: 120px ;
+    height: 75px ;
+}
+
+#portfolio-div h1 {
+    margin-left: 10px ;
+}
+
+#contact-div h1 {
+    margin-left: 10px ;
+}
+
+#contact-div a {
+    color: white ;
+}
+
+#contact-div {
+    position: absolute ;
+    right: 0 ;
+    background-color: var(--deep) ;
+    display: flex ;
+    align-items: center ;
     width: 175px ;
     height: 75px ;
 }
@@ -153,7 +184,7 @@ footer div {
 
 #portrait {
     width: 50px ;
-    border-radius: 100% ;
+    /* border-radius: 100% ; */
 }
 
 #web-app {
