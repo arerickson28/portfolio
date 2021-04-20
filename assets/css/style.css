@@ -36,7 +36,9 @@ ul li a {
 
 header {
     background-color:  var(--silver);
-    /* position: fixed ; */
+    /* position: fixed ;
+    width: 100% ; */
+    
 }
 
 header h1 {
